@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     img.src = productDetails[i].imgUrl;
 
     let h1 = document.createElement('h1');
-    h1.className = "font-bold text-xl";
+    h1.className = "font-bold text-xl sm:font-bold sm:text-xl";
     h1.textContent = productDetails[i].productName;
 
     let p = document.createElement('p');
